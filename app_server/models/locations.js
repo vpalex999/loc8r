@@ -23,3 +23,5 @@ var locationSchema = new mongoose.Schema({
   openingHours: [openingTimeSchema],
   customerReviews: [customerReviewSchema]
 });
+
+mongoose.model('Location', locationSchema);
